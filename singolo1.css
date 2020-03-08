@@ -1,0 +1,131 @@
+#topnav {
+    background-color:  #524644;
+    width: 100%;
+    height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+.singolo {
+    display: inline-flex;
+    color: white;
+    font-size: 50px;
+    padding-top: 15px;
+  }
+
+#topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 60px;
+
+  }
+  
+#topnav a:hover {
+    color: #D77A3A;
+    height: 72px;
+  }
+ 
+  #topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #pic1 img{
+    width: 100%;
+    height: 700px;
+    margin: none;
+    padding-top: 0px;
+  }
+
+  .right {
+    position: absolute;
+    right: 10px;
+    top: 480px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .left {
+    position: absolute;
+    left: 10px;
+    top: 480px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .left a:hover{
+    background-color: tomato;
+  }
+
+  .grid {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  
+  .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  #boxa img {
+    width: 100px;
+    height: 90px;
+    position: relative;
+  }
+
+  #boxb img {
+    width: 100px;
+    height: 90px;
+    position: relative;
+  }
+  #boxc img {
+    width: 100px;
+    height: 90px;
+    position: relative;
+  }
+   
+  #boxd img {
+    width: 100px;
+    height: 90px;
+    position: relative;
+  }
+
+  #boxe img {
+    width: 100px;
+    height: 90px;
+    position: relative;
+  }
+
+  #boxf img {
+    width: 100px;
+    height: 90px;
+    position: relative;
+  }
+  
+  #boxa p{
+    display: inline-block;
+  }
+  #boxb p{
+    display: inline-block;
+  }
+  #boxc p{
+    display: inline-block;
+  }
+  #boxd p{
+    display: inline-block;
+  }
+  #boxe p{
+    display: inline-block;
+  }
+  #boxf p{
+    display: inline-block;
+  }

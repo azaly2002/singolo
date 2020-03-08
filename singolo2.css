@@ -1,0 +1,130 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	margin: auto;
+	width: 1020px;
+}
+.main1 {
+	margin: auto;
+    background-color: #2d303a;
+	height: 850px;
+}
+#titles {
+	line-height: 18px;
+	color: #666d89;
+	text-align: left;
+	font-size: 32px;
+}
+#text {
+	line-height: 30px;
+	height: 41px;
+	text-align: justify;
+	font-size: 20px;
+	color: #767e9e;
+	width: 940px;
+}
+#nav {
+    margin-right: 10px;
+	height: 20px;
+	color: #767e9e;
+    border: 1px solid #666d89;
+    text-decoration: none;
+	float: left;
+	text-align: center;
+    border-radius: 5px;
+}
+.PortText {
+    padding-left: 20px;
+	padding-top: 20px;
+}
+.Navigation {
+	padding-left: 41px;
+	font-size: 12px;
+	line-height: 19px;
+}
+.All {
+	width: 30px;
+}
+.WebDesign {
+	width: 80px;
+}
+.Graphic {
+	width: 90px;	
+}
+.Art {
+	width: 60px;
+}
+li {
+	list-style-type: none;
+	display: inline;
+}	
+.PortTitle {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+#MainPictures {
+    display: grid;
+    grid-column-gap: 15px;
+    padding-left: 50px;
+	width: 940px;
+    height: 601px;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 20px;
+	overflow: hidden;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+}
+.Line {
+	width: 1020px;
+    margin-top: 67px;
+	background-color: #323746;
+	border: 0px;
+    height: 10px;
+}
+#captions {
+	text-align: justify;
+	font-size: 15px;
+	color: #767e9e;
+    padding-top: 10px; 
+	line-height: 20px;
+}
+.AboutUs {
+    height: 728px;
+	width: 1020px;
+	margin: auto;
+	background-color: white;
+}
+.AboutUsTitle {
+    padding-top: 70px;
+    padding-left: 38px;
+	padding-bottom: 13px;
+}
+.AboutUsText {
+	padding-top: 20px;
+	padding-left: 45px;
+}
+.AboutUsColum {
+    padding-top: 64px;
+    margin-left: 39px;
+    grid-template-columns: 320px 321px 320px;
+    height: 450px;
+    display: grid;
+}
+.PeopleName {
+	padding-top: 17px;
+	text-align: left;
+	color: #666d89;
+	font-size: 18px;
+    line-height: 18px;
+    overflow: hidden; 
+}
+.Line {
+	margin-top: 67px;
+    height: 10px;
+    width: 1020px;
+	background-color: #323746;
+	border: 0px;
+}
