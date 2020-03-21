@@ -5,13 +5,29 @@
     height: 150px;
     padding-left: 15px;
     padding-right: 15px;
-
+    position: sticky;
   }
+  .bordered {
+    border: 5px solid #F06C64;
+  }
+
+#topnav a.active{
+color: violet;
+}
+
+.topnav a:not(.active):hover {
+  cursor: pointer;
+}
+
 .singolo {
     display: inline-flex;
     color: white;
     font-size: 50px;
     padding-top: 15px;
+  }
+  
+  .courser{
+    color: black;
   }
 
 #topnav a {
@@ -36,10 +52,16 @@
   }
 
   #pic1 img{
-    width: 100%;
+    width: 1020px;
     height: 700px;
     margin: none;
     padding-top: 0px;
+    display: flex;
+  
+  }
+
+  #slide2 img{
+    display: none;
   }
 
   .right {
@@ -502,3 +524,5 @@ p {
 }
 
 /*------------------------------------------------------------singolo3 css------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------testing for singolo dom--------------------------------------------------------------------*/
