@@ -164,7 +164,6 @@ cursor: pointer;
 
 body {
 margin: auto;
-width: 1020px;
 }
 .main1 {
 margin: auto;
@@ -294,7 +293,6 @@ border: 0px;
 body {
 text-align: left;
 margin: 0 auto;
-width: 1020px;
 line-height: 6px;
 font-size: 12px;
 color: #ffffff;
@@ -534,4 +532,149 @@ padding: 8px 0px 0px 8px;
 
 .bordered {
   border: 5px solid #F06C64;
+}
+
+/*-----------------------------------------------------------@media fo responnsive design------------------------------------------------*/
+
+
+@media (max-width: 767px) {
+
+  body {
+    width: 100%;
+    }
+
+  #topnav {
+    width: 100%;
+    height: 100px;
+  }
+
+  .img1 img{
+    width: 100%;
+    height: 600px;
+  }
+
+  .right {
+    right: 10px;
+    top: 380px;
+  }
+  
+  .left {
+    left: 10px;
+    top: 380px;
+  }
+
+  .singolo {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  
+  #topnav a {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+  .grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  #MainPictures {
+  grid-column-gap: 5px;
+  padding-left: 15px;
+  width: 100%;
+  height: 650px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 5px;
+}
+.AboutUsColum {
+  padding-top: 64px;
+  margin-left: 39px;
+  grid-template-columns: 300px 301px 300px;
+  height: 450px;
+  display: grid;
+}
+
+.section1_contact {  
+  width: 100%;
+  }
+  
+  .introduction {
+  font-size: 15px;
+  width: 100%;
+  }
+
+}
+
+@media (max-width: 374px) {
+
+  body {
+    width: 100%;
+    }
+
+  #topnav {
+    width: 374px;
+    height: 100px;
+  }
+
+  .img1 img{
+    width: 374px;
+    height: 400px;
+  }
+
+  .right {
+    right: 10px;
+    top: 380px;
+  }
+  
+  .left {
+    left: 10px;
+    top: 380px;
+  }
+
+  .singolo {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  
+  #topnav a {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+  .grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  #MainPictures {
+  grid-column-gap: 5px;
+  padding-left: 15px;
+  width: 100%;
+  height: 650px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 5px;
+}
+.AboutUsColum {
+  padding-top: 64px;
+  margin-left: 39px;
+  grid-template-columns: 300px 301px 300px;
+  height: 450px;
+  display: grid;
+}
+
+.section1_contact {  
+  width: 100%;
+  }
+  
+  .introduction {
+  font-size: 15px;
+  width: 100%;
+  }
+
 }
